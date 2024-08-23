@@ -1,0 +1,81 @@
+.ProductList {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f8bbd0; /* Light pink background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.ProductList h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ProductList .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ProductList .success {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ProductList .product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ProductList .product-item {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ProductList .product-details {
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.ProductList .quantity-input {
+  width: 60px;
+  margin: 10px 0;
+}
+
+.ProductList .product-button {
+  margin: 10px 5px;
+}
+
+.ProductList .out-of-stock {
+  color: red;
+  font-weight: bold;
+}
+
+.ProductList .reviews {
+  margin-top: 10px;
+}
+
+.ProductList .reviews h4 {
+  margin: 0 0 10px 0;
+}
+
+.ProductList .reviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ProductList .reviews li {
+  background-color: #eef;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

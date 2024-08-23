@@ -1,0 +1,102 @@
+.manage-salaries {
+  text-align: center;
+  background-color: #f8bbd0; /* Light pink background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  margin-top: 20px;
+}
+
+.manager-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.manager-item {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.manager-details {
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.manager-details:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.name-input {
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.edit-button, .delete-button, .view-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.edit-button {
+  background-color: #ec407a !important; /* Pinkish color */
+  color: white !important;
+}
+
+.edit-button:hover {
+  background-color: #d81b60 !important; /* Darker pink color */
+}
+
+.delete-button {
+  background-color: #f44336 !important; /* Red color */
+  color: white !important;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f !important; /* Darker red color */
+}
+
+.view-button {
+  background-color: #ec407a !important; 
+  color: white !important;
+}
+
+.view-button:hover {
+  background-color: #d81b60 !important; 
+}
+
+.success, .error {
+  margin-top: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.managerProfile {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}

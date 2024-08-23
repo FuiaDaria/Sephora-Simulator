@@ -1,0 +1,65 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8bbd0; /* Light pink background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f1c8c8; /* Pinkish background for items */
+  border-radius: 4px;
+}
+
+.cart-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+  color: #d81b60; /* Darker shade of pink for product name */
+}
+
+.product-brand {
+  color: #880e4f; /* Darker shade of pink for product brand */
+}
+
+.product-quantity {
+  color: #880e4f; /* Even darker shade of pink for quantity */
+}
+
+.product-price {
+  color: #880e4f; /* Even darker shade of pink for price */
+}
+
+.delete-button {
+  padding: 5px 10px; /* Smaller padding */
+  min-width: 80px; /* Set a minimum width */
+  background-color: #ec407a !important; /* Pinkish color */
+  color: white !important;
+  font-size: 14px !important; /* Smaller font size */
+  border-radius: 4px !important;
+  transition: background 0.3s ease !important;
+}
+
+
+.delete-button:hover {
+  background-color: #d81b60 !important; /* Darker shade of pink on hover */
+}
+
+.error, .success {
+  margin: 10px 0;
+  width: 100%;
+}

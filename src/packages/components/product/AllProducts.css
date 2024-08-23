@@ -1,0 +1,64 @@
+.manage-quantities {
+  text-align: center;
+  background-color: #f8bbd0; /* Light pink background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  margin-top: 20px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.product-details {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.name-input {
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.edit-button {
+  background-color: #ec407a !important; /* Pinkish color */
+  color: white !important;
+}
+
+.delete-button {
+  background-color: #f44336 !important; /* Red color */
+  color: white !important;
+}
+
+.success, .error {
+  margin-top: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
